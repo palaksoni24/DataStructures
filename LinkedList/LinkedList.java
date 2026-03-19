@@ -1,7 +1,7 @@
 package com.mycompany.linkedlist;
 
 public class LinkedList {
-
+  // main file
     public static void main(String[] args) {
         LL list = new LL();
         //add
@@ -9,6 +9,7 @@ public class LinkedList {
         list.addFirst("is");
         list.addFirst("This");
         list.printList();
+        
 
         list.addLast("list");
         list.printList();
@@ -23,5 +24,6 @@ public class LinkedList {
         list.addFirst("This");
         list.printList();
         System.out.println(list.getSize());
+        list.getSize();
     }
 }
